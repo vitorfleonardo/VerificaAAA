@@ -1,5 +1,5 @@
-repo_url: https://github.com/vitorfleonardo/AccessibilityChecker
-repo_name: AccessibilityChecker
+repo_url: https://github.com/vitorfleonardo/VerificAAA
+repo_name: VerificAAA
 
 site_name: VerificAAA
 
@@ -13,7 +13,7 @@ markdown_extensions:
       clickable_checkbox: true
 
 nav:
-- Início: "index.md"
-- Gestão de Projetos:
-  - Primeiro: "primeiro.md"
+  - Início: "index.md"
+  - Gestão de Projetos:
+    - Primeiro: "gestaoProjetos/primeiro.md"
 
