@@ -1,19 +1,22 @@
-repo_url: https://github.com/vitorfleonardo/AccessibilityChecker
-repo_name: AccessibilityChecker
+repo_url: https://github.com/vitorfleonardo/VerificaAAA.git
+repo_name: VerificaAAA
 
 site_name: VerificAAA
 
 theme:
   name: readthedocs
 
+ 
+  
+  
+ 
+
 markdown_extensions:
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: false
-      clickable_checkbox: true
+  
 
 nav:
 - Início: "index.md"
-- Gestão de Projetos:
-  - Primeiro: "primeiro.md"
+- Checklist:
+  - Desenvolvimento Web: "desenvolvimento/primeiro.md"
 
