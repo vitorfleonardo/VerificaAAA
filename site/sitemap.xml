@@ -16,6 +16,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/vitorfleonardo/VerificAAA/design/design.html</loc>
+         <lastmod>2024-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vitorfleonardo/VerificAAA/devWeb/non_text_content.html</loc>
+         <lastmod>2024-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/vitorfleonardo/VerificAAA/devWeb/web.html</loc>
          <lastmod>2024-05-09</lastmod>
          <changefreq>daily</changefreq>
