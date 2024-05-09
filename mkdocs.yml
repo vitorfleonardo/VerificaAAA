@@ -13,6 +13,10 @@ nav:
 
   - Desenvolvimento Web:
     - Acessibilidade Web: 'devWeb/web.md'
+    - Desenvolvimento: 'devWeb/non_text_content.md'
+
+  - Design:
+    - Design: 'design/design.md'
 
   - Gestão de Projetos:
     - Primeiro Passo: 'gestaoProjeto/primeiroP.md'
