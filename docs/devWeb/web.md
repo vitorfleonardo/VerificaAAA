@@ -2,15 +2,6 @@
 
 ## WCAG Checklist Level A (Iniciante)
 
-| Checkbox | Diretriz | Título |
-| --- | --- | --- |
-| - [ ] | 1.2.6 | Linguagem de Sinais (Pré-gravado) |
-| - [ ] | 1.2.7 | Descrição de Áudio Estendida (Pré-gravado) |
-| - [ ] | 1.2.8 | Alternativa de Mídia (Pré-gravado) |
-| - [ ] | 1.2.9 | Áudio Apenas (Ao Vivo) |
-| - [ ] | 1.3.6 | Identificar Propósito |
-
-
 | Diretriz | Título | 
 | --- | --- |
 | 1.1.1 | Conteúdo Não-textual | 

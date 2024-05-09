@@ -4,23 +4,25 @@ repo_name: VerificAAA
 site_url: https://github.com/vitorfleonardo/VerificAAA
 site_name: VerificAAA
 
-use_directory_urls: false
+use_directory_urls: False
 
 nav:
   - Início: 'index.md'
   - Checklist: 'checklist.md'
+  - Bibliografia: 'bibliografia.md'
 
   - Desenvolvimento Web:
-    - Acessibilidade Web: "devWeb/web.md"
+    - Acessibilidade Web: 'devWeb/web.md'
 
   - Gestão de Projetos:
-    - Primeiro Passo: "gestaoProjeto/primeiroP.md"
-    - Conscientização: "gestaoProjeto/conscientizacao.md"
-    - Planejamento: "gestaoProjeto/planejamento.md"
+    - Primeiro Passo: 'gestaoProjeto/primeiroP.md'
+    - Conscientização: 'gestaoProjeto/conscientizacao.md'
+    - Planejamento: 'gestaoProjeto/planejamento.md'
 
 theme:
   name: readthedocs
   locale: pt_BR
+  titles_only: true
 
 markdown_extensions:
   - def_list
