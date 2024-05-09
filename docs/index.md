@@ -1,6 +1,8 @@
 # VerificAAA
 
-O VerificAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos. 
+## Descrição
+
+O VerificAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
 
 ## Equipe
 
@@ -11,3 +13,6 @@ O VerificAAA é um projeto criado a partir do curso de Interação Humano Comput
   </tr>
 </table>
 
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](../LICENSE.md) para detalhes.

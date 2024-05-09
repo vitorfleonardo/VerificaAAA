@@ -8,7 +8,15 @@ use_directory_urls: false
 
 nav:
   - Início: 'index.md'
-  - Referências: 'referencias.md'
+  - Checklist: 'checklist.md'
+
+  - Desenvolvimento Web:
+    - Acessibilidade Web: "devWeb/web.md"
+
+  - Gestão de Projetos:
+    - Primeiro Passo: "gestaoProjeto/primeiroP.md"
+    - Conscientização: "gestaoProjeto/conscientizacao.md"
+    - Planejamento: "gestaoProjeto/planejamento.md"
 
 theme:
   name: readthedocs
