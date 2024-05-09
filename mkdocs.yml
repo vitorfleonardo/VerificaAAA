@@ -1,6 +1,7 @@
 repo_url: https://github.com/vitorfleonardo/VerificAAA
 repo_name: VerificAAA
 site_url: https://github.com/vitorfleonardo/VerificAAA
+use_directory_urls: false
 
 site_name: VerificAAA
 nav:
