@@ -1,7 +1,23 @@
 repo_url: https://github.com/vitorfleonardo/VerificAAA
 repo_name: VerificAAA
+site_url: https://github.com/vitorfleonardo/VerificAAA
 
 site_name: VerificAAA
+nav:
+  - Início: "index.md"
+
+  - Gestão de Projetos:
+    - Primeiro: "gestaoProjetos/primeiro.md"
+
+  - Desenvolvimento web:
+    - Teste 01: "desenvolvimentoWeb/teste.md"
+
+  - Design: 
+    - Teste 02: "design/teste.md"
+
+  - Geração de Conteúdo: 
+    - Teste 03: "geracaoConteudos/teste.md"
+
 
 theme:
   name: readthedocs
@@ -12,8 +28,5 @@ markdown_extensions:
       custom_checkbox: false
       clickable_checkbox: true
 
-nav:
-  - Início: "index.md"
-  - Gestão de Projetos:
-    - Primeiro: "gestaoProjetos/primeiro.md"
+
 
