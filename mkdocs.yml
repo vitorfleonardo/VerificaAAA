@@ -17,6 +17,9 @@ nav:
 
   - Design:
     - Design: 'design/design.md'
+  
+  - Geração de Conteúdo:
+    - Conteúdo: 'geracaoConteudo/conteudo.md'
 
   - Gestão de Projetos:
     - Primeiro Passo: 'gestaoProjeto/primeiroP.md'
