@@ -30,9 +30,14 @@ theme:
   name: readthedocs
   locale: pt_BR
   titles_only: true
+  logo: imagens/logo-verificaaa.png
+  favicon: imagens/logo-verificaaa.png
 
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: false
       clickable_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
