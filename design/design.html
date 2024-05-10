@@ -63,6 +63,11 @@
                   <li class="toctree-l1 current"><a class="reference internal current" href="design.html">Design</a>
                   </li>
               </ul>
+              <p class="caption"><span class="caption-text">Geração de Conteúdo</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../geracaoConteudo/conteudo.html">Conteúdo</a>
+                  </li>
+              </ul>
               <p class="caption"><span class="caption-text">Gestão de Projetos</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../gestaoProjeto/primeiroP.html">Primeiro Passo</a>
@@ -100,49 +105,53 @@
                 <h1 id="design">Design</h1>
 <h2 id="aparencia">Aparência</h2>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a href="#RP1">[1]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a href="#RP1">[1]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Certificar de que o tamanho do texto</b> possa ser duplicado. <a href="#RP2">[2]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a href="#RP3">[3]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a href="#RP4">[4]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a href="#RP5">[5]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3"href="#RP3">[3]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5"href="#RP5">[5]</a></li>
+<li class="task-list-item"><input type="checkbox"/> Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes.</li>
+<li class="task-list-item"><input type="checkbox"/> Parágrafos com no <b> máximo 80 caracteres por linha </b>.</li>
+<li class="task-list-item"><input type="checkbox"/> <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.</li>
+<li class="task-list-item"><input type="checkbox"/> Evita o alinhamento justificado.</li>
+<li class="task-list-item"><input type="checkbox"/> <b> Fontes são fluidas </b> e de fácil entendimento.</li>
+<li class="task-list-item"><input type="checkbox"/> Toma o devido cuidado com <b><code>display:none</code> e <code>visibility:hidden</code> para os recursos de tecnologia assistiva</b></li>
+<li class="task-list-item"><input type="checkbox"/> Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.</li>
 </ul>
 <h2 id="animacao">Animação</h2>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a href="#RP6">[6]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a href="#RP7">[7]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Certificar que toda a animação/b&gt; obedece à <code>prefers-reduced-motion</code> consulta de mídia. <a href="#RP8">[8]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Toda a animação</b> deve obedecer à <code>prefers-reduced-motion</code> consulta de mídia. <a id="TEC8" href="#RP8">[8]</a></li>
 </ul>
 <h2 id="contraste-de-cores">Contraste de Cores</h2>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de todo o texto de tamanho normal. <a href="#RP9">[9]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de todo o texto de tamanho grande. <a href="#RP9">[9]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de todos os ícones. <a href="#RP10">[11]</a></li>
-<li class="task-list-item"><input type="checkbox"/> <b> Verifique o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a href="#RP10">[10]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <b> Verificar <code>::selection</code> cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a></li>
 </ul>
-<h2 id="contraste-nao-textual">Contraste não textual</h2>
-<h2 id="foco">Foco</h2>
-<h2 id="espacamento-de-texto">Espaçamento de texto</h2>
-<h2 id="orientacao">Orientação</h2>
-<h2 id="sequencia-significativa">Sequência significativa</h2>
-<h2 id="bibliografia">Bibliografia</h2>
+<h1 id="bibliografia">Bibliografia</h1>
 <blockquote>
-<p><a href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html">https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html">https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC3">3.</a> WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html">https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC5">5.</a> WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">https://www.w3.org/WAI/WCAG22/Understanding/reflow.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC6">6.</a> WCAG 2.2 Understanding Docs. SC 1.4.10 Three Flashes or Below Threshold (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html">https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC7">7.</a> WCAG 2.2.2 Understanding Docs. SC 1.4.10 Pause, Stop, Hide (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html">https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html">https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html</a>. Acesso em: 9 Mai. 2024.</p>
-<p><a href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html">https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP2" href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html">https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP3" href="#TEC3">3.</a> WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html">https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP4" href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP5" href="#TEC5">5.</a> WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">https://www.w3.org/WAI/WCAG22/Understanding/reflow.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP6" href="#TEC6">6.</a> WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html">https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP7" href="#TEC7">7.</a> WCAG 2.2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html">https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP8" href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html">https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html</a>. Acesso em: 9 Mai. 2024.</p>
+<p><a id="RP9" href="#TEC9">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html</a>. Acesso em: 9 Mai. 2024.</p>
 </blockquote>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Navegação no rodapé">
         <a href="../devWeb/non_text_content.html" class="btn btn-neutral float-left" title="Desenvolvimento"><span class="icon icon-circle-arrow-left"></span> Anterior</a>
-        <a href="../gestaoProjeto/primeiroP.html" class="btn btn-neutral float-right" title="Primeiro Passo">Seguinte <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../geracaoConteudo/conteudo.html" class="btn btn-neutral float-right" title="Conteúdo">Seguinte <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -168,7 +177,7 @@
       <span><a href="../devWeb/non_text_content.html" style="color: #fcfcfc">&laquo; Anterior</a></span>
     
     
-      <span><a href="../gestaoProjeto/primeiroP.html" style="color: #fcfcfc">Seguinte &raquo;</a></span>
+      <span><a href="../geracaoConteudo/conteudo.html" style="color: #fcfcfc">Seguinte &raquo;</a></span>
     
   </span>
 </div>
