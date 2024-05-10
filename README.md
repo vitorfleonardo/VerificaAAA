@@ -1,5 +1,5 @@
 # VerificaAAA
-
+![200367e3-b0ac-4d8e-8af4-80a4362c87fa-removebg-preview](https://github.com/maykonjuso/portfolio/assets/89596623/4f297c89-4967-49c9-8cf3-ed4e7bae6cc6)
 ## Introdução
 
 Este repositório tem como propósito fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento de software, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos. 
