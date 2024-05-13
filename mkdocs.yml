@@ -7,12 +7,9 @@ site_name: VerificAAA
 use_directory_urls: False
 
 nav:
-  - Início: 'index.md'
-  - Checklist: 'checklist.md'
-  - Bibliografia: 'bibliografia.md'
+  - Início - VerificAAA: 'index.md'
 
   - Desenvolvimento Web:
-    - Acessibilidade Web: 'devWeb/web.md'
     - Desenvolvimento: 'devWeb/non_text_content.md'
 
   - Design:
@@ -22,9 +19,7 @@ nav:
     - Conteúdo: 'geracaoConteudo/conteudo.md'
 
   - Gestão de Projetos:
-    - Primeiro Passo: 'gestaoProjeto/primeiroP.md'
-    - Conscientização: 'gestaoProjeto/conscientizacao.md'
-    - Planejamento: 'gestaoProjeto/planejamento.md'
+    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
 
 theme:
   name: readthedocs
