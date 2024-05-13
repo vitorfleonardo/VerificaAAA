@@ -21,6 +21,9 @@ nav:
   - Gestão de Projetos:
     - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
 
+  - Ferramentas:
+    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+
 theme:
   name: readthedocs
   locale: pt_BR
